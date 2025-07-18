@@ -24,18 +24,27 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 * Olist averaged approximately $15.9 million in annual sales over the past two years.
 * São Paulo was consistently the top performing state, with sales decreasing the further away from the countries economic hub.
 * Sales show clear seasonality, with Spring peaking in total sales. However some months in 2024 are missing, introducing potential bias.
+<img width="1123" height="534" alt="Sales  By Months and Year" src="https://github.com/user-attachments/assets/3065191c-cf9a-4802-acd5-b4ac3febf0e5" />
+<img width="1346" height="866" alt="Sales  By State" src="https://github.com/user-attachments/assets/41f13f9a-eccc-4c9e-a746-41ea7bc83d3e" />
+<img width="722" height="852" alt="Sales  From Highest to Lowest" src="https://github.com/user-attachments/assets/a3e0652f-abf5-4f82-a034-cab7ba55c880" />
 
 ### Growth Rates
 * São Paulo had the highest overall state level growth at 36.47% over the two years.
-* The company's top month for growth was February 2023 with a 119.7% increase.
 * Spring had the highest seasonal growth rate, contributing approximately $7 million across both years.
 * May stood out as a consistent month of high growth yearly.
+<img width="300" height="95" alt="Olist Dashboard - 2" src="https://github.com/user-attachments/assets/71f188a6-a258-4c17-b68c-ac219f6773fc" />
+<img width="952" height="838" alt="Growth Rate  Monthly   Yearly" src="https://github.com/user-attachments/assets/8a208293-4086-4da3-ab1a-01db78e06758" />
+<img width="300" height="95" alt="Olist Dashboard - 3" src="https://github.com/user-attachments/assets/42682d8d-4e36-485c-b5e3-00f629080b24" />
 
 ### Refund Rates
 * Summer recorded the highest seasonal refund rate at 0.90%, though remains within acceptabel bounds.
 * The sate with the highest refund rate was Rondônia, likely due to the its geographical distance from the main state.
 * In 2023, the peak refund month was March, whereas in 2024 July had the highest rate at 1.81%.
-  
+<img width="300" height="95" alt="Olist Dashboard - 1" src="https://github.com/user-attachments/assets/8f304da0-46ff-4c4f-a0dd-cfc333465828" />
+<img width="300" height="95" alt="Olist Dashboard - 4" src="https://github.com/user-attachments/assets/c443cccb-0eb2-4baa-8c61-ad7edb4f91e9" />
+<img width="908" height="838" alt="Refund Rate  By State" src="https://github.com/user-attachments/assets/0db9c9e7-37f3-48bb-bd5e-da4aef685a40" />
+
+
 ## Recommendations
 ### Maximizing Sales and Growth Rates
 * __Expand Beyond São Paulo:__ São Paulo dominates sales, perfomance drops in states farther from this hub. Increasing outreach, promotions, and logistics support in underperforming states can unlock new markets.
@@ -45,3 +54,23 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 ### Maintaining Low Refund Rates
 * __Replicate Effective Practices:__ Identify what worked during the months with low refund and apply those practices across the board, including product quality checks and better delivery communication.
 * __Analyze Refund Patterns by State:__ Conduct a deeper analysis into which products and categories are most refunded in each state. This will help tailer better solutions whether its product sourcing or customer service interventions based on regional trends.
+
+## Clarifying Questions, Assumptions, and Caveats
+### Questions for Stakeholder Prior to Project Advancement
+* Which statuses actually represent a completed payment?
+  * Is "unavailable" a finalized status that should be treated as paid?
+  * Does "created" mean the order was never finalized?
+* Transactions with $0 were assumed to not be valid.
+
+### Assumptions and Caveats
+* Orders with status "delivered", "invoiced", "processing", "approved", "shipped", and "unavailable" were assumed to be paid orders.
+* Orders with status "canceled" were categorized as cancelled, and "created" as never paid.
+<img width="200" height="214" alt="image" src="https://github.com/user-attachments/assets/b20322bb-9bdf-40a2-beeb-8cdccb3dbd72" />
+
+* $0 Transactions were kept in the dataset but filtered out when creating the charts.
+---
+* See the raw data and my cleaning, and pivot tables in the Excel Workbook above
+* See my SQL Queries in the SQL file.
+* See my data cleaning and visualization in the above.
+
+
