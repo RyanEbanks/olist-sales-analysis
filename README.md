@@ -67,8 +67,9 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 
 * R$0 Transactions were kept in the dataset but filtered out when creating the charts.
 ---
-* See the raw data and my cleaning, and pivot tables in the Excel Workbook above
-* See my SQL Queries in the SQL file.
-* See my data cleaning and visualization in the above.
+* See the raw data and my cleaning, and pivot tables in the [Excel Workbook](./exploration/excel).
+* [See my SQL Queries in the SQL file](./exploration/olist_exploration.sql).
+* [Go to Data Cleaning Notes](./exploration/data%20cleaning/cleaning.md).
+* [Tableau Dashboard](./exploration/Olist.twbx).
 
 
