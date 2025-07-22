@@ -13,7 +13,7 @@ Olist is a Brazilian e-commerce company founded in 2015 in which they connect sm
 ## Executive Summary
 Our analysis of Olist's 103,877 records across 2023-2024 highlights key trends in sales, refund behaviour, and seasonal performance across Brazil. São Paolo led all states with a 37.47% growth rate, reinforcing its role as Brazil's primary market. The performance of sales tended to decline in states further away from São Paolo.
 
-May had the highest growth rate over the 2 years, generating over $1.2 million in sales. This contributed to Spring having the strongest seasonal performance, totaling in approximately $3.5 million. Summer followed closely in revenue but showed the highest refund rate of 0.90% at the end of 2024, still within acceptable limits. 
+May had the highest growth rate over the 2 years, generating over R$1.2 million in sales. This contributed to Spring having the strongest seasonal performance, totaling in approximately R$3.5 million. Summer followed closely in revenue but showed the highest refund rate of 0.90% at the end of 2024, still within acceptable limits. 
 
 Rondônia has the highest state level refund rate at 2.75% suggesting a potential area for review.
 
@@ -21,7 +21,7 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 
 ## Insights Deep-Dive
 ### Sales Trends
-* Olist averaged approximately $15.8 million in annual sales over the past two years.
+* Olist averaged approximately R$15.8 million in annual sales over the past two years.
 * São Paulo was consistently the top performing state, with sales decreasing the further away from the countries economic hub.
 * Sales show clear seasonality, with Spring peaking in total sales. However some months in 2024 are missing, introducing potential bias.
 <img width="952" height="528" alt="Sales By Months and Year" src="https://github.com/user-attachments/assets/e04a9e28-2b96-43a3-8b2b-5f9559506320" />
@@ -30,7 +30,7 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 
 ### Growth Rates
 * São Paulo had the highest overall state level growth at 37.47% over the two years.
-* Spring had the highest seasonal growth rate, contributing approximately $1.8 million across both years.
+* Spring had the highest seasonal growth rate, contributing approximately R$1.8 million across both years.
 * May stood out as a consistent month of high growth yearly.
 <img width="272" height="85" alt="state growth rate" src="https://github.com/user-attachments/assets/a8ed2b00-5901-458a-9b04-2ae9d03f5286" />
 <img width="952" height="852" alt="Growth Rate  Monthly   Yearly" src="https://github.com/user-attachments/assets/35476d11-695e-4c23-93f4-1c8173b3ae50" />
@@ -58,14 +58,14 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 * Which statuses actually represent a completed payment?
   * Is "unavailable" a finalized status that should be treated as paid?
   * Does "created" mean the order was never finalized?
-* Transactions with $0 were assumed to not be valid.
+* Transactions with R$0 were assumed to not be valid.
 
 ### Assumptions and Caveats
-* Orders with status "delivered", "invoiced", "processing", "approved", "shipped", and "unavailable" were assumed to be paid orders.
-* Orders with status "canceled" were categorized as cancelled, and "created" as never paid.
+* Orders with status ```delivered```, ```invoiced```, ```processing```, ```approved```, ```shipped```, and ```unavailable``` were assumed to be paid orders.
+* Orders with status ```canceled``` were categorized as cancelled, and ```created``` as never paid.
 <img width="200" height="214" alt="image" src="https://github.com/user-attachments/assets/b20322bb-9bdf-40a2-beeb-8cdccb3dbd72" />
 
-* $0 Transactions were kept in the dataset but filtered out when creating the charts.
+* R$0 Transactions were kept in the dataset but filtered out when creating the charts.
 ---
 * See the raw data and my cleaning, and pivot tables in the Excel Workbook above
 * See my SQL Queries in the SQL file.
