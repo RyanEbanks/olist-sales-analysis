@@ -31,7 +31,7 @@ Rondônia has the highest state level refund rate at 2.75% suggesting a potentia
 ### Growth Rates
 * São Paulo had the highest overall state level growth at 37.47% over the two years.
 * Spring had the highest seasonal growth rate, contributing approximately R$1.8 million across both years.
-* May stood out as a consistent month of high growth yearly.
+* May stood out as a consistent month of high growth yearly with a growth rate of 100.22%.
 <img width="272" height="85" alt="state growth rate" src="https://github.com/user-attachments/assets/a8ed2b00-5901-458a-9b04-2ae9d03f5286" />
 <img width="952" height="852" alt="Growth Rate  Monthly   Yearly" src="https://github.com/user-attachments/assets/35476d11-695e-4c23-93f4-1c8173b3ae50" />
 <img width="264" height="85" alt="Top Month" src="https://github.com/user-attachments/assets/e69309b8-f367-40d3-a283-15e14d1bbe65" />
